@@ -41,6 +41,9 @@
                                     <fontDescription key="titleFontDescription" type="italicSystem" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.60899400709999996" green="0.1085453108" blue="0.12134514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eVc-7w-7VR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,7 +52,6 @@
                     <connections>
                         <outlet property="diceImageView1" destination="8j1-2C-BTZ" id="1JA-l8-B64"/>
                         <outlet property="diceImageView2" destination="NCU-PE-GMq" id="5Gn-yd-TXI"/>
-                        <outlet property="rollButton" destination="UzV-qV-csD" id="e8q-O4-DgI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
